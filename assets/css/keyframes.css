@@ -1,0 +1,55 @@
+/* KEYFRAMES */
+
+/*Section Header*/
+
+.content-text h1{
+	animation: animationLeft 1.5s ease;
+	-moz-animation: animationLeft 1.5s ease;
+	-webkit-animation: animationLeft 1.5s ease;
+	
+}
+.content-text p{
+	animation: animationRight 1.5s ease;
+	-moz-animation: animationRight 1.5s ease;
+	-webkit-animation: animationRight 1.5s ease;
+
+}
+
+@keyframes animationLeft{
+	0%{
+		transform: translateX(-100%);
+	}
+	75%{
+		transform: translateX(0);
+	}
+}
+@keyframes animationRight{
+	100%{
+		transform: translateX(0);
+	}
+	0%{
+		transform: translateX(100%);
+	}
+}
+
+/*End section Header*/
+
+/*-----------------------------------------------------------------------------*/
+
+
+/* section Galeria */
+
+.content-galeria-text p{
+	animation: Text .8s ease;
+	-moz-animation: Text .8s ease;
+	-webkit-animation: Text .8s ease;;
+}
+
+@keyframes Text{
+	0%{
+		transform: translateX(20px);
+	}
+	70%{
+		transform: translateX(0px);
+	}
+}
