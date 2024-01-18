@@ -484,8 +484,8 @@ body {
 	flex-wrap: wrap;
 	width: 720px;
 	height: 500px;
-	margin-left: 300px;
-
+	margin-left: 350px;
+	margin-top: 30px;
 }
 
 .content-galeria-zoom-in img {
@@ -1036,9 +1036,22 @@ body {
 --------------------------------*/
 
 
-@media screen and (max-width: 1930px) and (min-width: 1440px) {
+@media screen and (max-width: 1930px) and (min-width: 1530px) {
 	.content-galeria {
 		padding-top: 250px;
+	}
+
+	.content-galeria-zoom-in {
+		margin-left: 650px;
+		margin-top: 150px;
+	}
+
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1380px) {
+	.content-galeria-zoom-in {
+		margin-left: 430px;
+		margin-top: 150px;
 	}
 
 }
@@ -1076,6 +1089,7 @@ body {
 /*-------------------------------
   END MEDIA QUERY IPHONE GALERIA
 ---------------------------------*/
+
 
 
 /*--------------------------------------------------*/
